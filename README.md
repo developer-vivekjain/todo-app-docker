@@ -12,4 +12,6 @@ docker build -t to-do-app-image .
 docker images
 # this comand we can use to run image in docker container.
 docker run -d -p 8080:8080 to-do-app-image:latest
+# after running application in docker container, you may access with below url.
+http://localhost:8080/swagger-ui/
 
